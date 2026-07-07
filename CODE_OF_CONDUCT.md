@@ -26,7 +26,7 @@ This Code of Conduct applies within project spaces and when an individual is rep
 
 ## Enforcement
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project team at:  
-**Project Maintainer Email:** [your-email@example.com]  
+**Project Maintainer Email:** gopalgk53@yahoo.com
 
 All complaints will be reviewed and investigated promptly and fairly. The project team is obligated to maintain confidentiality regarding the reporter of an incident.
 
