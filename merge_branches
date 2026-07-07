@@ -33,4 +33,9 @@ Updating ad95b0a..a7c6127
 Fast-forward
  simple-interest.sh | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push -u origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+   ad95b0a..a7c6127  main -> main
+branch 'main' set up to track 'origin/main'.
 gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % 
