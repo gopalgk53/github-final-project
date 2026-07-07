@@ -1,27 +1,36 @@
-gopalakrishnagk53@192 github-final-project % git status
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
-gopalakrishnagk53@192 github-final-project % git checkout -b bug-fix-typo
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout -b bug-fix-typo
 Switched to a new branch 'bug-fix-typo'
-gopalakrishnagk53@192 github-final-project % git add
-Nothing specified, nothing added.
-hint: Maybe you wanted to say 'git add .'?
-hint: Disable this message with "git config set advice.addEmptyPathspec false"
-gopalakrishnagk53@192 github-final-project % git add .
-gopalakrishnagk53@192 github-final-project % git commit -m bug-fix-typo
-[bug-fix-typo eb1bec5] bug-fix-typo
- 1 file changed, 1 insertion(+)
-gopalakrishnagk53@192 github-final-project % git checkout main
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git add .
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git commit -m bug-fix-typo
+[bug-fix-typo a7c6127] bug-fix-typo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
-gopalakrishnagk53@192 github-final-project % git push --set-upstream origin main
-branch 'main' set up to track 'origin/main'.
-Everything up-to-date
-gopalakrishnagk53@192 github-final-project % git merge bug-fix-typo
-Updating ca145f9..eb1bec5
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push --set-upstream origin bug-fix
+-typo
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
+remote:      https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-typo
+remote: 
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+ * [new branch]      bug-fix-typo -> bug-fix-typo
+branch 'bug-fix-typo' set up to track 'origin/bug-fix-typo'.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git merge bug-fix-typo
+Updating ad95b0a..a7c6127
 Fast-forward
- simple_interest.sh | 1 +
- 1 file changed, 1 insertion(+)
-gopalakrishnagk53@192 github-final-project % 
+ simple-interest.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % 
