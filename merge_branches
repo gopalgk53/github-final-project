@@ -1,0 +1,27 @@
+gopalakrishnagk53@192 github-final-project % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+gopalakrishnagk53@192 github-final-project % git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+gopalakrishnagk53@192 github-final-project % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+gopalakrishnagk53@192 github-final-project % git add .
+gopalakrishnagk53@192 github-final-project % git commit -m bug-fix-typo
+[bug-fix-typo eb1bec5] bug-fix-typo
+ 1 file changed, 1 insertion(+)
+gopalakrishnagk53@192 github-final-project % git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+gopalakrishnagk53@192 github-final-project % git push --set-upstream origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+gopalakrishnagk53@192 github-final-project % git merge bug-fix-typo
+Updating ca145f9..eb1bec5
+Fast-forward
+ simple_interest.sh | 1 +
+ 1 file changed, 1 insertion(+)
+gopalakrishnagk53@192 github-final-project % 
